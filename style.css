@@ -15,6 +15,8 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
+    
+    border:0.2vw solid black;
 }
 .container{
    
@@ -33,31 +35,46 @@ body{
 .navbar{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
     list-style-type:none;
-    background-color: green;
+    background-color: rgb(165, 126, 158);
     grid-area:navbar;
     height:15vh;
     width:100vw;
 }
 
+/*Nav (Left Side)*/
 
-.navbar-item{
-    font-size:2vw;
-    
-}
 .logo-container{
     display: flex;
     flex-direction: row;
+    gap:4vh;
 }
+
 .logo{
-    font-size:3vw;
+    margin-bottom:1vh;
+}
+.logo-text{
+    font-size:2.3vw;
     font-weight:bold;
 }
 
+
+
+/*Nav (Right Side)*/
+
+.logo-2-container{
+    display: flex;
+    flex-direction: row;
+    gap:3vh;
+    margin-right:2vw;
+}
+
 .nav-img{
-height:10vh;
-width:6vw;
+height:8vh;
+width:5vw;
 }
 
 
@@ -74,39 +91,73 @@ width:6vw;
 
 
 
+
 /*Body Section*/
+
+/*Sidebar*/
 .sidebar{
-    background-color: rgb(62, 41, 62);
+    background-color: rgb(200, 179, 200);
     grid-area:sidebar;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
-.sidebar-list{
-display: flex;
-flex-direction: column;
-list-style-type: none;
-justify-content: space-between;
-}
-
-.sidebar-item{
-
- text-decoration-line: none;
-    color:black;
-}
 
 .sidebar-link{
-    text-decoration-line: none;
+display: flex;
+flex-direction: row;
+ text-decoration-line: none;
     color:black;
+    font-size:2.2vw;
+    font-weight:bold;
+    background-color: aquamarine;
+    padding:0.4vw;
+    border-radius:1vw;
+    border:0.1vw solid black;
+    width:15vw;
+
 }
+/*Sidebar Ends*/
+
+/*Main Content Section*/
+
 .main-content{
-    background-color: #f6e9d4;
+    background-color: #10100f;
     grid-area:main-content;
+   display: flex;
+   flex-direction: column;;
+
 }
 
+.main-content-header{
+    margin-bottom:1vh;
+font-size:3vw;
+text-decoration-line: underline;
+color:white;
+}
+
+.main-content-container{
+ display: grid;
+    grid-template-columns:40vw 40vw;;
+    grid-template-rows:30vh 30vh;
+    color:white;
+}
+.card{
+    height:20vh;
+    width:20vw;
+    background-color: rgb(68, 68, 96,0.8);
+}
+.card-header{
+    font-size:2vw;
+    color:white;
+
+}
+/*Main Content Section Ends*/
 
 /*Footer Section*/
 .footer{
-    background-color: rgb(41, 0, 128);
+    background-color: rgb(100, 84, 133);
     grid-area:footer;
 }
 
