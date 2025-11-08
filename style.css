@@ -13,16 +13,20 @@ body{
 .navbar,.sidebar,.main-content,.footer{
     display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+   
     
     border:0.2vw solid black;
 }
+.sidebar,.footer{
+     align-items: center;
+    text-align: center;
+}
+
 .container{
    
     display: grid;
     grid-template-columns: 17vw 83vw;
-    grid-template-rows:12vh 90vh 10vh;
+    grid-template-rows:12vh 90vh 10.5vh;
     grid-auto-rows:30vh;
     grid-template-areas:
     "navbar navbar"
@@ -37,6 +41,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
     margin:auto;
     list-style-type:none;
     background-color: rgb(165, 126, 158);
@@ -50,15 +55,18 @@ body{
 .logo-container{
     display: flex;
     flex-direction: row;
-    gap:4vh;
+    gap:1vh;
 }
 
 .logo{
-    margin-bottom:1vh;
+    margin-bottom:2vh;
+    margin-left:1vh;
+   
 }
 .logo-text{
     font-size:2.3vw;
     font-weight:bold;
+    margin-top:.6vh;
 }
 
 
@@ -68,7 +76,7 @@ body{
 .logo-2-container{
     display: flex;
     flex-direction: row;
-    gap:3vh;
+
     margin-right:2vw;
 }
 
@@ -78,17 +86,17 @@ width:5vw;
 }
 
 
-.notification-img{
 
+
+.question-img{
+height:3vh;
+margin-top:2vh;
 }
-
 .profile-img{
-
-}
-.settings-img{
-    
+    margin-bottom:3vh;
 }
 
+/*Navbar Section End*/
 
 
 
@@ -103,19 +111,24 @@ width:5vw;
     justify-content: space-evenly;
 }
 
-
+.sidebar-img{
+    height:7vh;
+width:3vw;
+}
 .sidebar-link{
 display: flex;
 flex-direction: row;
+justify-content: space-between;
  text-decoration-line: none;
     color:black;
     font-size:2.2vw;
     font-weight:bold;
     background-color: aquamarine;
     padding:0.4vw;
-    border-radius:1vw;
+    border-radius:.6vw;
     border:0.1vw solid black;
     width:15vw;
+    align-items: center;
 
 }
 /*Sidebar Ends*/
@@ -126,32 +139,130 @@ flex-direction: row;
     background-color: #10100f;
     grid-area:main-content;
    display: flex;
-   flex-direction: column;;
-
+   flex-direction: column;
+   justify-content: start;
 }
 
 .main-content-header{
-    margin-bottom:1vh;
+    margin-top:1vh;
+    margin-bottom:1.5vh;
 font-size:3vw;
+justify-content: center;
+text-align: center;
 text-decoration-line: underline;
 color:white;
 }
 
 .main-content-container{
+    padding-left: 0.6vw;
+    padding-right: 0.4vw;
  display: grid;
-    grid-template-columns:40vw 40vw;;
-    grid-template-rows:30vh 30vh;
+ grid-template-columns: 28vw 27vw 30vw;
+ grid-template-rows:38vh 38vh;
+grid-template-areas: 
+"card-1 card-2 card-5"
+"card-3 card-4 card-5"
+;
     color:white;
+  row-gap: 1vw;
+  column-gap:1.5vh;
+ 
 }
 .card{
-    height:20vh;
-    width:20vw;
+    
     background-color: rgb(68, 68, 96,0.8);
+    display: flex;
+    text-align:center;
+    flex-direction: column;
+    
 }
 .card-header{
     font-size:2vw;
     color:white;
+    margin-top:1vh;
 
+}
+
+.card-1{
+    grid-area:card-1;
+
+}
+.card-2{
+      grid-area:card-2;
+}
+.card-3{
+      grid-area:card-3;
+}
+.card-4{
+      grid-area:card-4;
+    
+}
+.card-5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height:78.5vh;
+    width:25vw;
+      grid-area:card-5;
+}
+
+ 
+
+.screen-container{
+
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    margin:auto;
+    flex-direction:column;
+    border:0.5vw solid black;
+    
+    width:20vw;
+    height:25vh;
+    float:right;
+    
+    margin-top:1.2vh;
+
+
+}
+
+.sound-img{
+    height:20vw;
+    height:25vw;
+}
+
+.noise-shield-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:3vh;
+}
+
+.noise-shield-text{
+font-size:0.5vw;
+}
+
+.noise-shield-input{
+
+}
+
+#sound-dropdown{
+
+width:20vw;
+}
+
+
+.focus-session-btn{
+    height:5vh;
+    width:7vw;
+    border-radius:.4vw;
+    background-color: #10100f;
+    color:white;
+    border:0.2vw solid black;
+    justify-content: center;
+    margin-bottom:10vh;
 }
 /*Main Content Section Ends*/
 
@@ -159,10 +270,11 @@ color:white;
 .footer{
     background-color: rgb(100, 84, 133);
     grid-area:footer;
+ 
 }
 
 .footer-text{
-    font-size:2vw;
+    font-size:1.1vw;
 }
 
 .contact-badge{
