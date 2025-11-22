@@ -22,7 +22,7 @@
 
                  
                     <a href="about.html"><img src="assets\question-circle.svg" class="nav-img question-img"alt=""></li></a>
-                    <img src="assets\person-circle.svg" class="nav-img profile-img" alt=""></li>
+                    <img src="assets\person-circle.svg" class="nav-img" id="profile-img" alt=""></li>
                     
                 </div>
                 
@@ -31,10 +31,10 @@
             <div class="sidebar">
                 <a href="" class="sidebar-link">   <img src="assets\profile-list.svg" class="sidebar-img"> Dashboard</a>
                 <a href="" class="sidebar-link">   <img src="assets\calendar.svg" class="sidebar-img">Calendar</a>
-                <a href="" class="sidebar-link">   <img src="assets\card-list.svg" class="sidebar-img">To Do List</a>
+                <a href="" class="sidebar-link todo-list-link">   <img src="assets\card-list.svg" class="sidebar-img">To Do List</a>
                 <a href="" class="sidebar-link">   <img src="assets\profile-list.svg" class="sidebar-img">Skill Library</a>
                
-                <a href="" class="sidebar-link">   <img src="assets\mic-mute.svg" class="sidebar-img">Join Quiet Rooms</a>
+                <a href="" class="sidebar-link">   <img src="assets\mic-mute.svg" class="sidebar-img"> Quiet Rooms</a>
                  <a href="" class="sidebar-link">   <img src="assets\gear-wide.svg" class="sidebar-img">Account Settings</a>
                 
             </div>
@@ -62,20 +62,29 @@
     <div class="screen-container">
 <img src="assets\images (1).jpg" class="sound-img" alt="">
     </div>
-    <audio controls autoplay src="">
+    <audio controls autoplay src="" class="sound">
 <source src="assets\Quantum Jazz - Passing Fields.mp3" type="audio.mp3">
     </audio>
-    <div class="noise-shield-container">
-      
-        <p class="noise-shield-text">Enable Noise Shield</p>
-          <input type="checkbox" name="noise-shield-input" id="">
-    </div>
-    <select name="" id="sound-dropdown">
+   
+     <label for="theme" class="dropdown-label">Enter preferred theme.</label>
+    <select name="theme" class="sound-dropdown">
+        <option value="ambience" class="sound-item">Lofi Cafe</option>
+        <option value="cloudy" class="sound-item">Rainy Day</option>
+        <option value="fireplace"  class="sound-item">Sunset Bliss</option>
+        <option value="forest" class="sound-item">Forest Hush</option>
+    </select>
+    <label for="sounds" class="dropdown-label sound-dropdown-label">Enter preferred sounds. </label>
+    <select name="sounds" class="sound-dropdown">
         <option value="ambience" class="sound-item">Ambience</option>
         <option value="cloudy" class="sound-item">Cloudy</option>
         <option value="fireplace"  class="sound-item">Fireplace</option>
         <option value="forest" class="sound-item">Forest</option>
     </select>
+     <div class="noise-shield-container">
+      
+        <p class="noise-shield-text">Enable Noise Shield</p>
+          <input type="checkbox" name="noise-shield-input" id="">
+    </div>
     <button class="focus-session-btn">Start Focus Session</button>
   </p>
          </div>
@@ -119,7 +128,7 @@
             </div>
             
             <footer class="footer">
-                <p class="footer-text">© 2025, Built with ❤️ by Eben Nduwimana</p>
+                <p class="footer-text">© 2025 Vibe HQ.  All Rights Reserved.</p>
                 
                 
                 <a href="https://www.linkedin.com/in/eben-nduwimana/">
@@ -130,7 +139,7 @@
                 </a>
                 
                 <a href="https://github.com/xscape24">
-                    <img src="assets\images.png" id="twitter-icon" class="contacft-badge" alt="">
+                    <img src="assets\images.png" id="twitter-icon" class="contact-badge" alt="">
                 </a>
             </footer>
         </div>

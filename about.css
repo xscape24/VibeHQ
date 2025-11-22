@@ -10,7 +10,7 @@ html{
 }
 
 body{
-    background:linear-gradient(rgb(114, 91, 131), rgb(80, 154, 55));
+    background-color: bisque;
     
     
 }
@@ -84,6 +84,27 @@ margin-bottom:4vh;
 }
 
 
+
+
+
+.grid-container{
+    height:200vh;
+
+    display: grid;
+    grid-template-areas:
+    "testimonials testimonials"
+    "features how-it-works"
+    "  "; 
+}
+
+
+
+
+
+
+
+
+
 .lofi-girl-img{
     height:44vh;
     width:40vw;
@@ -107,7 +128,7 @@ margin-bottom:4vh;
 /* Ad Section*/
 
 #ad-section{
-    background:linear-gradient(rgba(88, 88, 119, 0.8), rgb(79, 47, 89));
+    background-color: #1a2032;
 }
 
 /*Section 2*/
@@ -119,6 +140,7 @@ margin-bottom:4vh;
 #features{
      border-top:1vh solid black;
     border-bottom:1vh solid black;
+    grid-area:features;
 }
 
 /*Features Section */
@@ -165,6 +187,7 @@ margin-bottom:4vh;
 #how-it-works{
     margin-bottom:10rem;
     border-top:0;
+    grid-area:how-it-works;
     
     text-align: center;
     align-items: center;
@@ -218,6 +241,7 @@ font-size:12vw;
     justify-content: center;
     align-items: center;
     text-align: center;
+    grid-area:testimonials;
   
     width:100%;
     border:10px;
@@ -312,7 +336,7 @@ margin-top:10rem;
 .footer{
     background-color: rgb(92, 38, 198);
     grid-area:footer;
-    height:10vh;
+    height:10.5vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -321,7 +345,7 @@ margin-top:10rem;
 }
 
 .footer-text{
-    font-size:2vw;
+    font-size:1.1vw;
 }
 
 .contact-badge{
