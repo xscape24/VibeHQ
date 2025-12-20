@@ -1,54 +1,50 @@
-VibeHQ — Student Productivity & Habit-Tracking Web App
+# VibeHQ — Student Productivity & Habit-Tracking Web App
 
-VibeHQ is a web application that gives students a personalized environment to track habits, manage study tasks, and build better daily routines.
-It focuses on simplicity, clarity, and creating a clean space for productivity.
+VibeHQ is a web application that provides students with a personalized environment to track habits, manage study tasks, and build better daily routines.  It emphasizes simplicity, clarity, and a distraction-free interface to maximize focus and productivity.
 
-🌟 Features
 
-Add, edit, delete, and organize tasks
+<img width="885" height="347" alt="image" src="https://github.com/user-attachments/assets/dfe1159e-08fd-45a0-a8b0-6f4991f61c51" />
 
-Track habits and daily goals for personal growth
+---
 
-Responsive multi-page layout (Home, Tracker, About)
+## 🌟 Features
+- Add, edit, delete, and organize tasks efficiently
+- Track habits, daily goals, and progress for personal growth
+- Responsive multi-page layout (Home, Tracker, About)
+- Clean, minimalist UI designed to reduce distractions
+- Fully client-side application built with HTML, CSS, and JavaScript
+- Customizable task categories (e.g., study, fitness, habits)
+- Mobile-first design for seamless desktop and mobile experience
 
-Clean, minimalist UI designed to reduce distractions
+---
 
-Fully client-side app built with HTML, CSS, and JavaScript
+## ⚙️ How It Works
 
-⚙️ How It Works
+**Home Page** – Provides an overview of the app’s purpose and quick access to core features.  
 
-Home Page – Overview of the app, purpose, and quick access to features.
+**Tracker Page**  
+- Add tasks through a simple, intuitive input field  
+- Edit or delete tasks in real time  
+- Organize items into categories for better workflow  
+- Automatically adapts layout for desktop and mobile screens  
 
-Tracker Page –
+**About Page** – Explains the mission of VibeHQ and how it supports students in building consistent study habits.  
 
-Add tasks with a simple input field
+The app’s goal is to create a calm, customizable environment where users can stay focused, track their progress, and develop productive routines without distractions.
 
-Edit or delete tasks in real time
+---
 
-Organize items into categories (study, fitness, habits, etc.)
+## 🛠️ Tech Stack
+- **HTML** — structure, multi-page layout, semantic markup  
+- **CSS** — responsive design, spacing, containers, and color system  
+- **JavaScript** — task creation, editing, deletion, DOM manipulation, and interactivity  
+- **Git/GitHub** — version control, collaboration, and project documentation  
 
-Interface adapts automatically to mobile or desktop
+---
 
-About Page – Explains the mission and how VibeHQ helps students build consistent study habits.
-
-The goal is to create a calm, customizable environment where users can stay focused and track their progress without distractions.
-
-🛠️ Tech Stack
-
-HTML — structure and multi-page layout
-
-CSS — responsive design, spacing, containers, color system
-
-JavaScript — task creation, editing, DOM manipulation
-
-Git/GitHub — version control and project documentation
-
-📚 Lessons Learned
-
-Improved ability to architect a multi-page application with consistent layouts and navigation.
-
-Strengthened understanding of responsive design principles using flexbox, grid, reusable components, and scalable spacing systems.
-
-Gained experience building user-driven interactivity (adding/editing tasks) with clean JavaScript DOM logic.
-
-Learned how to design a UI environment that reinforces focus, habit-building, and student productivity.
+## 📚 Lessons Learned
+- Architected a multi-page application with consistent layouts and navigation  
+- Strengthened understanding of responsive design principles using Flexbox, Grid, reusable components, and scalable spacing systems  
+- Gained hands-on experience building dynamic user interactivity with clean JavaScript logic  
+- Designed a UI that enhances focus, habit-building, and overall student productivity  
+- Learned to balance functionality and minimalism for a smooth user experience  
