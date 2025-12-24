@@ -1,6 +1,7 @@
 # VibeHQ — Student Productivity & Habit-Tracking Web App
 
 **Live Demo:** (https://xscape24.github.io/VibeHQ/) 
+
 **GitHub Repository:** [https://github.com/xscape24/VibeHQ](https://github.com/xscape24/VibeHQ)
 
 
