@@ -1,6 +1,6 @@
 # VibeHQ — Student Productivity & Habit-Tracking Web App
 
-**Live Demo:** [https://vibehq.example.com](https://vibehq.example.com)  
+**Live Demo:** (https://xscape24.github.io/VibeHQ/) 
 **GitHub Repository:** [https://github.com/xscape24/VibeHQ](https://github.com/xscape24/VibeHQ)
 
 
@@ -52,4 +52,5 @@ The app’s goal is to create a calm, customizable environment where users can s
 - Gained hands-on experience building dynamic user interactivity with clean JavaScript logic  
 - Designed a UI that enhances focus, habit-building, and overall student productivity  
 - Learned to balance functionality and minimalism for a smooth user experience  
+
 
