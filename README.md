@@ -1,7 +1,8 @@
 # VibeHQ
+https://vibehq-app.vercel.app/
 
 ### Personal Growth & Skill Tracking Platform
-https://vibehq-app.vercel.app/
+
 VibeHQ is a full-stack web application focused on helping students and self-learners track habits, build skills, and improve study consistency through structured progress tracking and daily workflow management.
 
 The platform combines a responsive frontend experience with a backend architecture powered by Django and MySQL, allowing users to manage personal development activities in a centralized environment.
