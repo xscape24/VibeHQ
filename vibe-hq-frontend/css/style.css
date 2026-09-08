@@ -443,6 +443,12 @@ body{
     
 }
 
+.screen-box{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
 
 .screen-container{
     
@@ -452,12 +458,12 @@ body{
     flex-direction:column;
     border:0.5vw solid black;
    
-    width:22vw;
-    height:26vh;
+    width:19vw;
+    height:23vh;
     float:right;
     
     
-    border-radius:0.2vw;
+    border-radius:0.5vw;
     
 }
 
@@ -465,6 +471,11 @@ body{
     height: 100%;
     width:100%;
     
+}
+
+.arrow{
+    height:2vh;
+    width:2vw;
 }
 
 .sound-audio{

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VibeHQ - Find your flow</title>
     <link rel="stylesheet" href="css\style.css">
-    <script src="script.js"></script>
+    <script src="src\script.js"></script>
 </head>
 <body>
     
@@ -87,10 +87,15 @@
          <div class="card card-5">
   <h2 class="card-header focus-session-header">Time to Focus      </h2>
   <p>
-
+    <div class="screen-box">
+<img src="assets\left-arrow.png" class="arrow" id="left-arrow" onclick="changeScreenLeft()" alt="">
     <div class="screen-container">
-<img src="assets\images (1).jpg" class="sound-img" alt="">
+       <img src="assets\images (1).jpg" id="sound-img" alt="">
+
     </div>
+    <img src="assets\right-arrow.png" class="arrow right-arrow" onclick="changeScreenRight()"alt="">
+    </div>
+
     <audio controls autoplay src="" class="sound-audio">
 <source src="assets\Quantum Jazz - Passing Fields.mp3" type="audio.mp3">
     </audio>
