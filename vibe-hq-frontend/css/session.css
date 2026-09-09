@@ -1,0 +1,260 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    
+}
+
+.sidebar,.main-content,.footer{
+    display: flex;
+    justify-content: center;
+    
+    
+    border:0.2vw solid black;
+}
+.sidebar,.footer{
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    
+   
+}
+
+
+
+
+
+/*Main Content Section*/
+
+
+.main-content{
+background:linear-gradient(rgb(151, 202, 210), pink);
+    display: flex;
+    flex-direction: column;
+    
+    align-items:center; /*horizontally centering*/
+    height:120vh;
+    
+}
+.calendar-container{
+    display:flex;
+    flex-direction:column;
+    height:120%;
+    width:80%;
+    gap:3vh;
+    margin-top:2vh;
+    margin-bottom:2vh;
+   
+    
+}
+/*Focus Header Section */
+
+.back-btn{
+    height:6vh;
+    width:8vw;
+    background-color: skyblue;
+    font-weight:bold;
+    font-size:1vw;
+    
+}
+
+.focus-header-container{
+    display: flex;
+    flex-direction:row;
+    background-color:gray;
+    height:17vh;
+    width:98%;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.skill-container{
+    background-color: purple;
+    height:8vh;
+    width:15vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    border-radius:1vw;
+
+}
+
+.skill-dropdown{
+
+}
+
+.skill-item{
+
+
+}
+
+.timer-container{
+    height:8vh;
+    width:40vw;
+    background-color: green;
+    display: flex;
+    justify-content:space-evenly;
+    text-align: center;
+    align-items:center;
+    border-radius:1vw;
+
+}
+.timer-text{
+    color:white;
+    font-weight:bold;
+    font-size:2vw;
+
+}
+
+.timer{
+    font-weight:bold;
+    color:white;
+    font-size:2vw;
+}
+
+.timer-btn-container{
+    display:flex;
+    flex-direction: row;
+gap:1vw;
+}
+
+.timer-btn{
+height:4vh;
+width:6vw;
+
+color:white;
+
+}
+.reset-btn{
+    background-color: blue;
+
+}
+.start-btn{
+background-color: green;
+}
+
+.stop-btn{
+    background-color: red;
+}
+
+/*Focus Header Section Ends*/
+
+/*Study Area*/
+
+.study-area{
+    display: flex;
+    flex-direction: row;
+   
+gap:2vw;
+}
+
+
+.events-list-container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+   margin:auto;
+    border:0.15vw solid white;
+     border-radius:2vw;
+     background-color:rgb(169, 145, 145);
+     height: 80vh;
+}
+
+.events-list-header{
+    font-size:2vw;
+    
+text-decoration-line: underline;
+    font-weight:bold;
+    display: flex;
+    margin-bottom:1vh;
+    margin-top:1vh;
+}
+.events-list{
+background-color:rgb(169, 145, 145);
+    border-radius:2vw;;
+    height:70%;
+ 
+    display: flex;
+    flex-direction: column;
+    gap:1.5vh;
+    width:20vw;
+    list-style-type:none;
+
+    
+}
+
+.events-item{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.events-item-text{
+
+font-size:2vw 
+    
+}
+
+input[type="checkbox"]{
+    height:3vh;
+    width:3vw;
+    background-color: green;
+}
+
+.study-container{
+
+    height:80vh;
+    width:40vw;
+    border-radius:1vw;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    text-align: center;
+}
+
+.study-text{
+margin-top:1.5vh;
+margin-bottom:2vh;
+
+}
+
+.study-img{
+height:50vh;
+width:90%;
+margin-bottom:4vh;
+}
+
+/*Study Area Ends*/
+
+
+
+/*Main Content Section Ends*/
+
+/*Footer Section*/
+.footer{
+    background-color: rgb(83, 46, 78);
+    height:10vh;
+    
+}
+
+.footer-text{
+    font-size:1.09vw;
+}
+
+.contact-badge{
+    
+    
+}
+
